@@ -16,7 +16,7 @@ public class SplashActivity extends Activity {
 
 	private static final int DELAY_TO_SEND_TIME = 3000;
 
-	private static final String SPLASH_XML_FILE_NAME = "splash_sp";
+	public static final String SPLASH_XML_FILE_NAME = "splash_sp";
 
 	private boolean splashFlag;
 
