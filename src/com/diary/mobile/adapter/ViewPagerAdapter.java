@@ -14,6 +14,7 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
 import com.diary.mobile.R;
+import com.diary.mobile.controller.AppEnterActivity;
 import com.diary.mobile.controller.SplashActivity;
 
 public class ViewPagerAdapter extends PagerAdapter {
