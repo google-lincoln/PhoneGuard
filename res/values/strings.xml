@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MobileSafer</string>
+    <string name="app_name">安卓手机管家</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="network_monitoring">流量监控</string>
+    <string name="soft_manager">软件管理</string>
+    <string name="system_optimizing">系统优化</string>
+    <string name="harass_intercept">骚扰拦截</string>
+    <string name="privacy_space">隐私空间</string>
+    <string name="function_box">工具箱</string>
+    <string name="onekey_optimizing">一键优化</string>
+    <string name="app_setting">设置</string>
+    <string name="moblic_space">手机存储空间</string>
+    <string name="software_uninstall">软件卸载</string>
 
 </resources>

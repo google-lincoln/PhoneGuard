@@ -28,6 +28,9 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name=".MainActivity" />
+         <activity
+            android:name=".controller.AppEnterActivity"></activity>
+        
     </application>
 
 </manifest>

@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".AppEnterActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="5"
+        android:background="#ff353535"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/app_name"
+            android:textColor="#ff0000aa"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <ImageView
+            android:id="@+id/app_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_setting"
+            android:onClick="onClick"
+            android:src="@drawable/setting"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:background="#ff353535" >
+
+        <Button
+            android:id="@+id/onekey_optimizing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/appicon"
+            android:contentDescription="@string/onekey_optimizing"
+            android:padding="0dp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/flow_monitoring"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/network_statistics"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="@string/network_monitoring" />
+
+            <Button
+                android:id="@+id/soft_manager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/soft_manager"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="@string/soft_manager" />
+
+            <Button
+                android:id="@+id/system_optimizing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/system_optimizing"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="@string/system_optimizing" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/harass_intercept"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/harass_filter"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="@string/harass_intercept" />
+
+            <Button
+                android:id="@+id/app_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/setting_center"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="设置中心" />
+
+            <Button
+                android:id="@+id/function_box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:drawableTop="@drawable/box"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="@string/function_box"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
