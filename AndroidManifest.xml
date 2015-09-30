@@ -30,6 +30,28 @@
         <activity android:name=".MainActivity" />
          <activity
             android:name=".controller.AppEnterActivity"></activity>
+         
+              <activity
+            android:name=".controller.AppManager"
+            android:label="软件管理" >
+            <intent-filter>
+                <action android:name="app_manager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.NetWorkMonitoringActivity"
+            android:label="流量监控" >
+            <intent-filter>
+                <action android:name="flow_monitoring" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+              
+         
         
     </application>
 
